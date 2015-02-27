@@ -3,7 +3,7 @@ print("Welcome to TicTacToe!")
 # Get char
 char = input("Would you like to be \'X\' or \'O\'?")
 # Check if char is 'X' or 'O'
-def board(a,b):
+def drawBoards(a,b):
     print('   |   |')
     print(' ' + board[1,7] + ' | ' + board[1,8] + ' | ' + board[1,9])
     print('   |   |')
