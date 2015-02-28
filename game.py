@@ -4,7 +4,7 @@ print("Welcome to TicTacToe!")
 char = input("Would you like to be \'X\' or \'O\'?")
 # Check if char is 'X' or 'O'
 
-board = range(0, 40)
+board = list(range(0, 40));
 
 def drawinstructionBoard(a):
     print('    |    |')
