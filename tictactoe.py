@@ -77,6 +77,7 @@ def start():
         print("-----------")
         print("",board[0],"|",board[1],"|",board[2],"")
         if gameOver():
+            input()
             break
         i = getMove()
         board[i] = c
