@@ -1,11 +1,11 @@
 board = list(range(9))
-c = "Y"
+c = "O"
 
 def getMove():
     global c
     if c == "X":
-        c = "Y"
-    elif c == "Y":
+        c = "O"
+    elif c == "O":
         c = "X"
         
     i = input(c + "'s move: ")
